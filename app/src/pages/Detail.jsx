@@ -1,10 +1,7 @@
 import { useParams, useNavigate, Link } from 'react-router-dom'
 import useKoleksi from '../hooks/useKoleksi.js'
 
-// Ganti key dan label ini dengan tiga field tema sesuai NIM-mu.
 const FIELD = [
-  { key: 'judul', label: 'Judul' },
-  { key: 'kategori', label: 'Kategori' },
   { key: 'jumlah', label: 'Jumlah' },
   { key: 'kodeAlat', label: 'Kode Alat' },
   { key: 'kondisi', label: 'Kondisi' }
