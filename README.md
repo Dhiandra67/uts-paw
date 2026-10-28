@@ -34,14 +34,14 @@ Terapkan keempatnya pada setiap jawaban yang berisi kode untuk soal ini.
 3. Clone fork, kerjakan soal di folder `app/`:
 
    ```bash
-   git clone https://github.com/USERNAME/uts-paw.git
+   git clone https://github.com/Dhiandra67/uts-paw.git
    cd uts-paw/app
    npm install
    npm run dev
    ```
 
 4. Cek perkiraan nilai kapan saja dengan `npm run cek` di folder `app/`.
-5. Push ke `main`. Aplikasi tayang di `https://USERNAME.github.io/uts-paw/` dan ringkasan rubrik muncul di tab Actions (workflow **Build dan Deploy**).
+5. Push ke `main`. Aplikasi tayang di `https://dhiandra67.github.io/uts-paw/` dan ringkasan rubrik muncul di tab Actions (workflow **Build dan Deploy**).
 
 Panduan lengkap beserta solusi kendala umum ada di halaman [Panduan](https://uts-paw.mhabibalgifari.web.id/panduan).
 
@@ -62,20 +62,21 @@ Penilaian akhir selalu memakai `grader/` dan `shared/` versi repo induk, jadi me
 
 Ganti seluruh isi berkas ini dengan dokumentasi aplikasimu (butir rubrik A4). Kerangka berikut boleh dipakai:
 
-```markdown
-# Nama Aplikasi
+# Inventaris  Laboratorium
 
-Nama: ...
-NIM: ...
-Kelas: ...
-Tema: ...
-Deployment: https://USERNAME.github.io/uts-paw/
+Nama: Rasya Dhiandra Bangsawan
+NIM: 124140163
+Kelas: RA
+Tema: Inventaris Laboratorium
+Deployment: https://dhiandra67.github.io/uts-paw/
 
 ![Tangkapan layar beranda](docs/beranda.png)
 
 ## Fitur
 
-- ...
+- Mengecek Kondisi Alat
+- Menambah Alat Laboratorium
+- Melihat jumlah Alat Laboratorium
 
 ## Menjalankan secara lokal
 
@@ -85,5 +86,5 @@ npm run dev
 
 ## Konsep React yang dipakai
 
-- ...
-```
+- Context
+- React Router

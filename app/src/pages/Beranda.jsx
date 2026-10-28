@@ -1,14 +1,23 @@
-// pages/Beranda.jsx, Koleksi.jsx, Detail.jsx, Statistik.jsx
-import useKoleksi from "../hooks/useKoleksi";
+import { Link } from 'react-router-dom'
+import useKoleksi from '../hooks/useKoleksi.js'
+import mahasiswa from '../../mahasiswa.json'
 
-const { items } = useKoleksi();
-// Buat tujuh berkas ini di src/pages/ dengan isi sementara seperti ini.
-// Isinya diganti satu per satu saat mengikuti panduan setiap halaman.
 export default function Beranda() {
+  const { items, loading } = useKoleksi()
+  const jumlahKategori = new Set(items.map((item) => item.kategori)).size
+
   return (
-    <main>
-      <h1>Beranda</h1>
-      <p>Selamat datang di Inventaris Laboratorium!</p>
-    </main>
+    <section>
+      <h1>Daftar Tugas</h1>
+      <p>Tema: {mahasiswa.tema}</p>
+      {loading ? (
+        <p>Memuat ringkasan...</p>
+      ) : (
+        <p>
+          Ada {items.length} tugas dalam {jumlahKategori} kategori.
+        </p>
+      )}
+      <Link to="/koleksi">Lihat semua tugas</Link>
+    </section>
   )
 }
