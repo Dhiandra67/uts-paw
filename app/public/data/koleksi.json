@@ -1,10 +1,122 @@
 [
   {
     "id": "1",
-    "judul": "Contoh item pertama",
-    "kategori": "Contoh",
-    "fieldTema1": "ganti sesuai field tema",
-    "fieldTema2": 0,
-    "fieldTema3": "ganti sesuai field tema"
+    "judul": "Komputer Desktop",
+    "kategori": "Komputer",
+    "kodeAlat": "KOM-001",
+    "jumlah": 20,
+    "kondisi": "Baik"
+  },
+  {
+    "id": "2",
+    "judul": "Monitor LED",
+    "kategori": "Komputer",
+    "kodeAlat": "KOM-002",
+    "jumlah": 20,
+    "kondisi": "Baik"
+  },
+  {
+    "id": "3",
+    "judul": "Keyboard",
+    "kategori": "Periferal",
+    "kodeAlat": "PER-001",
+    "jumlah": 20,
+    "kondisi": "Baik"
+  },
+  {
+    "id": "4",
+    "judul": "Mouse",
+    "kategori": "Periferal",
+    "kodeAlat": "PER-002",
+    "jumlah": 20,
+    "kondisi": "Baik"
+  },
+  {
+    "id": "5",
+    "judul": "Laptop",
+    "kategori": "Komputer",
+    "kodeAlat": "KOM-003",
+    "jumlah": 5,
+    "kondisi": "Baik"
+  },
+  {
+    "id": "6",
+    "judul": "Printer",
+    "kategori": "Perangkat Output",
+    "kodeAlat": "OUT-001",
+    "jumlah": 2,
+    "kondisi": "Baik"
+  },
+  {
+    "id": "7",
+    "judul": "Proyektor",
+    "kategori": "Perangkat Output",
+    "kodeAlat": "OUT-002",
+    "jumlah": 2,
+    "kondisi": "Baik"
+  },
+  {
+    "id": "8",
+    "judul": "Router",
+    "kategori": "Jaringan",
+    "kodeAlat": "JAR-001",
+    "jumlah": 3,
+    "kondisi": "Baik"
+  },
+  {
+    "id": "9",
+    "judul": "Switch Jaringan",
+    "kategori": "Jaringan",
+    "kodeAlat": "JAR-002",
+    "jumlah": 5,
+    "kondisi": "Baik"
+  },
+  {
+    "id": "10",
+    "judul": "Access Point",
+    "kategori": "Jaringan",
+    "kodeAlat": "JAR-003",
+    "jumlah": 3,
+    "kondisi": "Baik"
+  },
+  {
+    "id": "11",
+    "judul": "Kabel UTP",
+    "kategori": "Jaringan",
+    "kodeAlat": "JAR-004",
+    "jumlah": 50,
+    "kondisi": "Baik"
+  },
+  {
+    "id": "12",
+    "judul": "Tang Crimping",
+    "kategori": "Peralatan Jaringan",
+    "kodeAlat": "ALJ-001",
+    "jumlah": 10,
+    "kondisi": "Baik"
+  },
+  {
+    "id": "13",
+    "judul": "LAN Tester",
+    "kategori": "Peralatan Jaringan",
+    "kodeAlat": "ALJ-002",
+    "jumlah": 5,
+    "kondisi": "Baik"
+  },
+  {
+    "id": "14",
+    "judul": "UPS",
+    "kategori": "Perangkat Pendukung",
+    "kodeAlat": "PEN-001",
+    "jumlah": 10,
+    "kondisi": "Perlu Servis"
+  },
+  {
+    "id": "15",
+    "judul": "Obeng Set",
+    "kategori": "Peralatan Laboratorium",
+    "kodeAlat": "ALB-001",
+    "jumlah": 5,
+    "kondisi": "Baik"
   }
 ]
