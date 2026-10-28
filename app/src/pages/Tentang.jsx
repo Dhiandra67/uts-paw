@@ -1,7 +1,6 @@
 import mahasiswa from '../../mahasiswa.json'
 
-// Ganti dengan alamat repo fork kamu.
-const REPO = 'https://github.com/USERNAME/uts-paw'
+const REPO = 'https://github.com/Dhiandra67/uts-paw'
 
 export default function Tentang() {
   const { nama, nim, kelas, tema } = mahasiswa
@@ -9,13 +8,13 @@ export default function Tentang() {
     <section>
       <h1>Tentang</h1>
       <dl>
-        <dt>Nama</dt>
+        <dt>Rasya Dhiandra Bangsawan</dt>
         <dd>{nama}</dd>
-        <dt>NIM</dt>
+        <dt>124140163</dt>
         <dd>{nim}</dd>
-        <dt>Kelas</dt>
+        <dt>RA</dt>
         <dd>{kelas}</dd>
-        <dt>Tema</dt>
+        <dt>Inventaris Laboratorium</dt>
         <dd>{tema}</dd>
       </dl>
       <p>
