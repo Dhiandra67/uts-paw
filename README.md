@@ -68,7 +68,7 @@ Nama: Rasya Dhiandra Bangsawan
 NIM: 124140163
 Kelas: RA
 Tema: Inventaris Laboratorium
-Deployment: https://dhiandra67.github.io/uts-paw/
+Deployment: https://Dhiandra67.github.io/uts-paw/
 
 ![Tangkapan layar beranda](docs/beranda.png)
 
@@ -77,6 +77,7 @@ Deployment: https://dhiandra67.github.io/uts-paw/
 - Mengecek Kondisi Alat
 - Menambah Alat Laboratorium
 - Melihat jumlah Alat Laboratorium
+- Menghapus Alat dalam web
 
 ## Menjalankan secara lokal
 
