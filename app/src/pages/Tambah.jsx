@@ -9,7 +9,7 @@ export default function Tambah() {
   const navigate = useNavigate()
   const { tambah, loading } = useKoleksi()
   const [form, setForm] = useState({
-    nama: '',
+    judul: '',
     kategori: KATEGORI[0],
     kodeAlat: '',
     jumlah: 1,
@@ -44,7 +44,7 @@ export default function Tambah() {
       <h1>Tambah Alat</h1>
       <form onSubmit={simpan} noValidate>
         <div>
-          <label htmlFor="judul">Nama alat</label>
+          <label htmlFor="judul">Judul alat</label>
           <input
             id="judul"
             name="judul"
