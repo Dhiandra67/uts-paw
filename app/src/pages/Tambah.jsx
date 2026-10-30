@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import useKoleksi from '../hooks/useKoleksi.js'
 import './Tambah.css'
 
-const KATEGORI = ['Komputer', 'Jaringan', 'Periferal', 'Peralatan Laboratorium', 'Perangkat Output', 'Peralatan Jaringan','Perangkat Pendukung']
+const KATEGORI = ['Komputer', 'Jaringan', 'Elektronika', 'Alat Ukur']
 const KONDISI = ['Baik', 'Perlu servis', 'Rusak']
 
 const AWAL = {

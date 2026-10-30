@@ -4,6 +4,8 @@ import KotakPencarian from '../components/KotakPencarian.jsx'
 import KartuItem from '../components/KartuItem.jsx'
 import PesanKosong from '../components/PesanKosong.jsx'
 
+export const KATEGORI = ['Komputer','Jaringan','Elektronika','Alat Ukur']
+
 export default function Koleksi() {
   const { items, loading, error } = useKoleksi()
   const [cari, setCari] = useState('')

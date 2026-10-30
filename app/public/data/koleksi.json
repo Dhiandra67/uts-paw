@@ -18,7 +18,7 @@
   {
     "id": "3",
     "judul": "Keyboard",
-    "kategori": "Periferal",
+    "kategori": "Komputer",
     "kodeAlat": "PER-001",
     "jumlah": 20,
     "kondisi": "Baik"
@@ -26,7 +26,7 @@
   {
     "id": "4",
     "judul": "Mouse",
-    "kategori": "Periferal",
+    "kategori": "Komputer",
     "kodeAlat": "PER-002",
     "jumlah": 20,
     "kondisi": "Baik"
@@ -42,7 +42,7 @@
   {
     "id": "6",
     "judul": "Printer",
-    "kategori": "Perangkat Output",
+    "kategori": "Komputer",
     "kodeAlat": "OUT-001",
     "jumlah": 2,
     "kondisi": "Baik"
@@ -50,7 +50,7 @@
   {
     "id": "7",
     "judul": "Proyektor",
-    "kategori": "Perangkat Output",
+    "kategori": "Elektronika",
     "kodeAlat": "OUT-002",
     "jumlah": 2,
     "kondisi": "Baik"
@@ -90,7 +90,7 @@
   {
     "id": "12",
     "judul": "Tang Crimping",
-    "kategori": "Peralatan Jaringan",
+    "kategori": "Jaringan",
     "kodeAlat": "ALJ-001",
     "jumlah": 10,
     "kondisi": "Baik"
@@ -98,7 +98,7 @@
   {
     "id": "13",
     "judul": "LAN Tester",
-    "kategori": "Peralatan Jaringan",
+    "kategori": "Alat Ukur",
     "kodeAlat": "ALJ-002",
     "jumlah": 5,
     "kondisi": "Baik"
@@ -106,7 +106,7 @@
   {
     "id": "14",
     "judul": "UPS",
-    "kategori": "Perangkat Pendukung",
+    "kategori": "Elektronika",
     "kodeAlat": "PEN-001",
     "jumlah": 10,
     "kondisi": "Perlu Servis"
@@ -114,7 +114,7 @@
   {
     "id": "15",
     "judul": "Obeng Set",
-    "kategori": "Peralatan Laboratorium",
+    "kategori": "Elektronika",
     "kodeAlat": "ALB-001",
     "jumlah": 5,
     "kondisi": "Baik"
