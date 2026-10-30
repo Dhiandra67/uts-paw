@@ -1,12 +1,6 @@
 import { useParams, useNavigate, Link } from 'react-router-dom'
 import useKoleksi from '../hooks/useKoleksi.js'
 
-const FIELD = [
-  { key: 'jumlah', label: 'Jumlah' },
-  { key: 'kodeAlat', label: 'Kode Alat' },
-  { key: 'kondisi', label: 'Kondisi' }
-]
-
 export default function Detail() {
   const { id } = useParams()
   const navigate = useNavigate()
@@ -15,7 +9,7 @@ export default function Detail() {
   if (loading) return <p>Memuat data...</p>
   if (error) return <p role="alert">Gagal memuat: {error}</p>
 
-  const item = items.find((x) => String(x.id) === id)
+  const item = items.find((i) => String(i.id) === id)
 
   if (!item) {
     return (
@@ -26,7 +20,8 @@ export default function Detail() {
     )
   }
 
-  function hapusItem() {
+  function handleHapus() {
+    if (!window.confirm(`Hapus "${item.judul}"?`)) return
     hapus(item.id)
     navigate('/koleksi')
   }
@@ -35,14 +30,20 @@ export default function Detail() {
     <section>
       <h1>{item.judul}</h1>
       <dl>
-        {FIELD.map(({ key, label }) => (
-          <div key={key}>
-            <dt>{label}</dt>
-            <dd>{item[key]}</dd>
-          </div>
-        ))}
+        <div>
+          <dt>Jumlah</dt>
+          <dd>{item.jumlah}</dd>
+        </div>
+        <div>
+          <dt>Kode Alat</dt>
+          <dd>{item.kodeAlat}</dd>
+        </div>
+        <div>
+          <dt>Kondisi</dt>
+          <dd>{item.kondisi}</dd>
+        </div>
       </dl>
-      <button type="button" onClick={hapusItem}>Hapus</button>
+      <button type="button" onClick={handleHapus}>Hapus</button>
       <Link to="/koleksi">Kembali ke koleksi</Link>
     </section>
   )
