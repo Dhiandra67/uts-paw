@@ -87,5 +87,6 @@ npm run dev
 
 ## Konsep React yang dipakai
 
-- Context
+- Context API
+- Custom hook
 - React Router
