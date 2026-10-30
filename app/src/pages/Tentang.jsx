@@ -8,13 +8,13 @@ export default function Tentang() {
     <section>
       <h1>Tentang</h1>
       <dl>
-        <dt>Rasya Dhiandra Bangsawan</dt>
+        <dt>Nama</dt>
         <dd>{nama}</dd>
-        <dt>124140163</dt>
+        <dt>NIM</dt>
         <dd>{nim}</dd>
-        <dt>RA</dt>
+        <dt>Kelas</dt>
         <dd>{kelas}</dd>
-        <dt>Inventaris Laboratorium</dt>
+        <dt>Tema</dt>
         <dd>{tema}</dd>
       </dl>
       <p>
