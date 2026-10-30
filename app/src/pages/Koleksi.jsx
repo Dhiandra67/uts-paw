@@ -2,6 +2,7 @@ import { useState } from 'react'
 import useKoleksi from '../hooks/useKoleksi.js'
 import KotakPencarian from '../components/KotakPencarian.jsx'
 import KartuItem from '../components/KartuItem.jsx'
+import PesanKosong from '../components/PesanKosong.jsx'
 
 export default function Koleksi() {
   const { items, loading, error } = useKoleksi()
@@ -30,7 +31,7 @@ export default function Koleksi() {
         </select>
       </div>
       {tampil.length === 0 ? (
-        <p>Tidak ada item yang cocok.</p>
+        <PesanKosong>Tidak ada item yang cocok.</PesanKosong>
       ) : (
         <div className="daftar-kartu">
           {tampil.map((item) => (

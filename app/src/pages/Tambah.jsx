@@ -27,7 +27,7 @@ export default function Tambah() {
     e.preventDefault()
     const judul = form.judul.trim()
     if (!judul) {
-      setErrorJudul('Nama alat tidak boleh kosong.')
+      setErrorJudul('Judul alat tidak boleh kosong.')
       return
     }
     tambah({
